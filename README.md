@@ -54,6 +54,7 @@ The application combines **historical sports knowledge stored locally in ChromaD
                   ▼
      Performance Dashboard
 ```
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e582262d-36b5-4049-b3ac-b17b4de0d63d" />
 
 ---
 
@@ -304,10 +305,3 @@ B.Tech – Computer Science & Engineering (Data Science)
 Python Developer | AI Enthusiast | Data Science | Machine Learning
 
 GitHub: https://github.com/UmaSupraja
-
-
-# License
-
-This project is developed for educational and learning purposes.
-
----
