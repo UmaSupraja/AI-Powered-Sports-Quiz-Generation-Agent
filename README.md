@@ -30,31 +30,7 @@ The application combines **historical sports knowledge stored locally in ChromaD
 
 # System Architecture
 
-```
-                User
-                  │
-                  ▼
-          Streamlit Application
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-        ▼                   ▼
- Historical Facts       Live Sports News
-   (ChromaDB)          (DuckDuckGo Search)
-        │                   │
-        └─────────┬─────────┘
-                  ▼
-          Context Aggregation
-                  ▼
-          Google Gemini API
-                  ▼
-         AI Quiz Generation
-                  ▼
-        Interactive Quiz UI
-                  ▼
-     Performance Dashboard
-```
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e582262d-36b5-4049-b3ac-b17b4de0d63d" />
+<img width="1920" height="900" alt="image" src="https://github.com/user-attachments/assets/e582262d-36b5-4049-b3ac-b17b4de0d63d" />
 
 ---
 
