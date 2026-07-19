@@ -1,0 +1,36 @@
+print("search.py is running")
+from ddgs import DDGS
+
+def get_live_news_context(sport_name):
+    """
+    Searches the live web for recent sport news, matches, or events.
+    Returns a unified text summary of search snippets.
+    """
+    search_query = f"{sport_name} latest tournament results championship winners news 2026"
+    retrieved_texts = []
+
+    print(f"Executing web search for: '{search_query}'...")
+    try:
+        # Initializing DuckDuckGo search context
+        with DDGS() as ddgs:
+            # We fetch the top 3 text search results
+            results = ddgs.text(search_query, max_results=3)
+
+            print("Results object:", results)
+
+            for index, r in enumerate(results, start=1):
+                print(r)
+                title = r.get("title", "No Title")
+                snippet = r.get("body", "No Snippet Content Available")
+                retrieved_texts.append(f"Web Source {index}: {title}\nSnippet: {snippet}")
+
+    except Exception as e:
+        print(f"Web Search fell back or failed: {e}")
+        return "No recent search engine updates available due to system connectivity."
+
+    return "\n\n".join(retrieved_texts)
+
+
+if __name__ == "__main__":
+    result = get_live_news_context("Football")
+    print(result)
