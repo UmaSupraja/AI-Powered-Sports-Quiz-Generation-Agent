@@ -1,10 +1,8 @@
 # AI-Powered Sports Quiz Generation Agent
----
 
 ### [View the Live AI-Powered Sports Quiz Generation Agent !](https://umasupraja-ai-powered-sports-quiz-generation-agent-app-qg3mia.streamlit.app/)
 
 ---
-
 
 An intelligent Sports Quiz application built using **Google Gemini**, **ChromaDB**, **DuckDuckGo Search**, and **Streamlit** that generates dynamic multiple-choice quizzes using Retrieval-Augmented Generation (RAG).
 
