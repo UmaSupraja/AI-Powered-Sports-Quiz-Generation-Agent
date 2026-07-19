@@ -30,7 +30,7 @@ The application combines **historical sports knowledge stored locally in ChromaD
 
 # System Architecture
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e582262d-36b5-4049-b3ac-b17b4de0d63d" />
+<img width="1400" height="900" alt="image" src="https://github.com/user-attachments/assets/e582262d-36b5-4049-b3ac-b17b4de0d63d" />
 
 ---
 
