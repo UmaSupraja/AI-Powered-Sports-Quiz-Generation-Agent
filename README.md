@@ -299,11 +299,8 @@ B.Tech – Computer Science & Engineering (Data Science)
 
 Python Developer | AI Enthusiast | Data Science | Machine Learning
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/UmaSupraja
 
-LinkedIn: https://linkedin.com/in/your-profile
-
----
 
 # License
 
