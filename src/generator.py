@@ -144,7 +144,7 @@ Return ONLY this JSON array.
     # Generate Quiz
     # -----------------------------
     response = client.models.generate_content(
-        model="gemini-flash-latest",
+        model="gemini-3.6-flash",
         contents=f"{system_instruction}\n\n{user_prompt}"
     )
 
